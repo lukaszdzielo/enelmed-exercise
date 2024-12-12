@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>enelMed - exercise</title>
+    <link href="./src/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+    <header class="container hidden">
         <nav>
             <a href="#">Logo</a>
             <ul>
@@ -23,16 +24,16 @@
 
     <main>
 
-        <section>
-
-            <h1>We're changing the way people connect.</h1>
-            <p>Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et labore
-                commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt mollit id
+        <section class="container hidden">
+            <h1 class="text-3xl">We're changing the way people connect.</h1>
+            <p>Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
+                labore
+                commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt mollit
+                id
                 pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat aliqua.</p>
-
         </section>
 
-        <section>
+        <section class="container hidden">
 
             <h2>Our mission</h2>
             <p>Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
@@ -63,7 +64,7 @@
 
         </section>
 
-        <section>
+        <section class="container hidden">
 
             <h2>Our values</h2>
             <p>Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
@@ -101,7 +102,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="container hidden">
             Trusted by the world's most innovative teams
             <div>
                 <div>logo</div>
@@ -112,7 +113,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="container hidden">
             <h2>Our team</h2>
             <p>Sit facilis neque ab nulla vel. Cum eos in laudantium. Temporibus eos totam in
                 dolorum. Nemo vel facere repellendus ut eos dolores similique.</p>
@@ -180,7 +181,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="container">
             <h2>From the blog</h2>
             <p>Vel dolorem qui facilis soluta sint aspernatur totam cumque.</p>
 
@@ -206,9 +207,9 @@
             </div>
         </section>
 
-        <footer>
-            <nav>
-                <ul>
+        <footer class="container text-center py-10 sm:py-20">
+            <nav class="mb-4 sm:mb-9">
+                <ul class="inline-flex gap-x-6 sm:gap-x-8 text-[.6875rem]">
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Jobs</a></li>
                     <li><a href="#">Press</a></li>
@@ -217,15 +218,17 @@
                 </ul>
             </nav>
 
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">YouTube</a></li>
-            </ul>
+            <div class="my-4 sm:my-9">
+                <ul class="inline-flex gap-x-8">
+                    <li><a href="#">A</a></li>
+                    <li><a href="#">B</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">D</a></li>
+                    <li><a href="#">E</a></li>
+                </ul>
+            </div>
 
-            <p>2020 Your Company, Inc. All rights reserved.</p>
+            <p class="mt-4 sm:mt-9 text-[.625rem]">2020 Your Company, Inc. All rights reserved.</p>
         </footer>
 
     </main>
