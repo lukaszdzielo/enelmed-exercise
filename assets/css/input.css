@@ -12,9 +12,18 @@ section {
     }
 }
 
-.team__grid {
-    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-6 sm:gap-y-10 lg:gap-14 mt-10 md:mt-20 text-center;
+.values__grid {
+    .values__item {
+        h3 {
+            @apply pb-2 text-gray-900 font-bold;
+        }
+        p {
+            @apply leading-relaxed;
+        }
+    }
+}
 
+.team__grid {
     .team__member {
         @apply flex flex-col items-center;
 
@@ -33,7 +42,6 @@ section {
 }
 
 .blog__grid {
-    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8;
 
     .blog__post {
         @apply relative h-40 sm:h-52 md:h-[450px] rounded-xl;
