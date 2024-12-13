@@ -995,6 +995,10 @@ footer {
     margin-bottom: 10rem;
   }
 
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
   .md\:mb-64 {
     margin-bottom: 16rem;
   }
@@ -1009,10 +1013,6 @@ footer {
 
   .md\:mt-64 {
     margin-top: 16rem;
-  }
-
-  .md\:mb-6 {
-    margin-bottom: 1.5rem;
   }
 
   .md\:pb-20 {
