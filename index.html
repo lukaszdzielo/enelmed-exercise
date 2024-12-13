@@ -187,27 +187,38 @@
             <p>Vel dolorem qui facilis soluta sint aspernatur totam cumque.</p>
 
             <div class="grid sm:grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-16" >
-                <article class="h-40 sm:h-80 p-4 sm:p-6" >
+                <a href="#" class="relative h-40 sm:h-[21.875rem] rounded-xl" >
                     <picture>
-                        <img src="./assets/img/300x350.svg" alt="#">
+                        <source media="(min-width: 640px)" srcset="/assets/img/300x350.svg" /> 
+                        <img src="/assets/img/610x160.svg" class="size-full object-cover rounded-xl" alt="#">
                     </picture>
-                    <div class="">
+                    <div class="absolute bottom-0 w-full p-4 sm:p-6">
                         <time>Mar 16, 2020</time>
                         <span>Michael Foster</span>
-                        <p>Vel expedita assumenda placeat aut nisi optio voluptates quas</p>
+                        <p class="text-[15px]/[19px] line-clamp-2">Vel expedita assumenda placeat aut nisi optio voluptates quas</p>
+                    </div>
+                </a>
+                <article class="relative h-40 sm:h-[21.875rem] rounded-xl" >
+                    <picture>
+                        <source media="(min-width: 640px)" srcset="/assets/img/300x350.svg" /> 
+                        <img src="/assets/img/610x160.svg" class="size-full object-cover rounded-xl" alt="#">
+                    </picture>
+                    <div class="absolute bottom-0 w-full p-4 sm:p-6">
+                        <time>Mar 10, 2020</time>
+                        <span>Lindsay Walton</span>
+                        <p class="text-[15px]/[19px] line-clamp-2">Libero quisquam voluptatibus nam iusto qui dolor</p>
                     </div>
                 </article>
-                <article class="h-40 sm:h-80 p-4 sm:p-6" style="background: lightblue;">
-                    <img src="#" alt="#">
-                    <time>Mar 10, 2020</time>
-                    <span>Lindsay Walton</span>
-                    <p>Libero quisquam voluptatibus nam iusto qui dolor</p>
-                </article>
-                <article class="h-40 sm:h-80 p-4 sm:p-6" style="background: lightblue;">
-                    <img src="#" alt="#">
-                    <time>Feb 12, 2020</time>
-                    <span>Tom Cook</span>
-                    <p>Asperiores mollitia et dolor autem modi sit eius quisquam</p>
+                <article class="relative h-40 sm:h-[21.875rem] rounded-xl" >
+                    <picture>
+                        <source media="(min-width: 640px)" srcset="/assets/img/300x350.svg" /> 
+                        <img src="/assets/img/610x160.svg" class="size-full object-cover rounded-xl" alt="#">
+                    </picture>
+                    <div class="absolute bottom-0 w-full p-4 sm:p-6">
+                        <time>Feb 12, 2020</time>
+                        <span>Tom Cook</span>
+                        <p class="text-[15px]/[19px] line-clamp-2">Asperiores mollitia et dolor autem modi sit eius quisquam</p>
+                    </div>
                 </article>
             </div>
         </section>
