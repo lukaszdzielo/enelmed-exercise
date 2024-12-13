@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply text-base text-zinc-500 tracking-wide;
+}
+
 section {
     h2 {
-        @apply mb-3 text-zinc-900 text-2xl sm:text-4xl font-bold;
+        @apply text-zinc-900 text-2xl sm:text-4xl font-bold;
     }
 }
 
 .team__grid {
-    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-6 sm:gap-y-10 lg:gap-14 mt-16 text-center;
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-6 sm:gap-y-10 lg:gap-14 mt-10 md:mt-20 text-center;
 
     .team__member {
         @apply flex flex-col items-center;
+
+        img {
+            @apply rounded-full;
+        }
 
         .team__member__name {
             @apply mt-3 sm:mt-7 text-zinc-900 text-base font-semibold;
@@ -32,9 +40,12 @@ section {
 
         picture {
 
+            img {
+                @apply size-full object-cover rounded-xl;
+            }
+
             &:after {
-                content: '';
-                @apply absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl;
+                @apply content-[''] absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl;
             }
         }
 
