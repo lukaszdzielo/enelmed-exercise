@@ -571,6 +571,8 @@ video {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
@@ -586,22 +588,17 @@ video {
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .sticky {
   position: sticky;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .top-10 {
   top: 2.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-20 {
@@ -617,11 +614,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mb-20 {
@@ -644,6 +636,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -656,28 +652,12 @@ video {
   margin-top: 8rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.block {
-  display: block;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -696,40 +676,12 @@ video {
   display: none;
 }
 
-.w-7\/12 {
-  width: 58.333333%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
 .w-full {
   width: 100%;
 }
 
-.auto-cols-max {
-  grid-auto-columns: max-content;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -740,24 +692,12 @@ video {
   flex-wrap: wrap;
 }
 
-.content-center {
-  align-content: center;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 .justify-around {
   justify-content: space-around;
 }
 
-.justify-items-center {
-  justify-items: center;
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -770,14 +710,6 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-x-4 {
@@ -818,10 +750,6 @@ video {
   text-align: center;
 }
 
-.align-top {
-  vertical-align: top;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -832,29 +760,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -868,11 +781,6 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
 body {
@@ -1153,10 +1061,6 @@ footer {
     width: 80%;
   }
 
-  .sm\:w-3\/5 {
-    width: 60%;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1210,8 +1114,16 @@ footer {
     margin-top: 2.5rem;
   }
 
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .md\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .md\:mt-24 {
+    margin-top: 6rem;
   }
 
   .md\:mt-40 {
@@ -1226,32 +1138,12 @@ footer {
     margin-top: 16rem;
   }
 
-  .md\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .md\:mt-12 {
-    margin-top: 3rem;
-  }
-
   .md\:w-3\/5 {
     width: 60%;
   }
 
-  .md\:w-3\/4 {
-    width: 75%;
-  }
-
-  .md\:w-2\/4 {
-    width: 50%;
-  }
-
   .md\:w-4\/5 {
     width: 80%;
-  }
-
-  .md\:grid-flow-col {
-    grid-auto-flow: column;
   }
 
   .md\:grid-cols-2 {
@@ -1266,16 +1158,12 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .md\:justify-around {
-    justify-content: space-around;
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:gap-4 {
     gap: 1rem;
-  }
-
-  .md\:gap-10 {
-    gap: 2.5rem;
   }
 
   .md\:gap-y-16 {
@@ -1288,11 +1176,6 @@ footer {
 
   .md\:pb-20 {
     padding-bottom: 5rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-4xl {
@@ -1324,33 +1207,8 @@ footer {
   margin-top: 1rem;
 }
 
-.\[\&\>p\+p\]\:mt-12>p+p {
-  margin-top: 3rem;
-}
-
-.\[\&\>p\+p\]\:pt-4>p+p {
-  padding-top: 1rem;
-}
-
 @media (min-width: 768px) {
   .md\:\[\&\>p\+p\]\:mt-12>p+p {
     margin-top: 3rem;
   }
-}
-
-.\[\&\>p\:not\:first\]\:pt-4>p:not:first {
-  padding-top: 1rem;
-}
-
-.\[\&\>p\:not\]\:pt-4>p:not {
-  padding-top: 1rem;
-}
-
-.\[\&\>p\]\:pt-4>p {
-  padding-top: 1rem;
-}
-
-.\[\&\>p\]\:text-teal-400>p {
-  --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity, 1));
 }
