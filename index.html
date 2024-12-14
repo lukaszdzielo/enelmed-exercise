@@ -25,19 +25,34 @@
     <main>
 
         <section class="container ">
-            <h1 class="text-3xl md:text-6xl text-gray-900 font-bold">We're changing the way people connect.</h1>
-            <p>Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                labore
-                commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt mollit
-                id
-                pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat aliqua.</p>
+            <div class="md:w-3/5">
+                <h1 class="mb-3 md:mb-6 text-3xl md:text-6xl text-gray-900 font-bold">We're changing the way people connect.</h1>
+                <p class="text-lg md:leading-relaxed">Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt mollit id pariatur in voluptate cillum. Eu voluptate tempor esse minim amet fugiat veniam occaecat aliqua.</p>
+            </div>
+            <div class="inline-grid grid-rows-5 grid-flow-col gap-8">
+                <div class="row-span-2 row-start-3">
+                    <img src="./assets/img/hero--img.svg" alt="gridImg1" class="rounded-xl">
+                </div>
+                <div class="row-span-2 row-start-2">
+                    <img src="./assets/img/hero--img.svg" alt="gridImg2" class="rounded-xl">
+                </div>
+                <div class="row-span-2">
+                    <img src="./assets/img/hero--img.svg" alt="gridImg3" class="rounded-xl">
+                </div>
+                <div class="row-span-2">
+                    <img src="./assets/img/hero--img.svg" alt="gridImg4" class="rounded-xl">
+                </div>
+                <div class="row-span-2">
+                    <img src="./assets/img/hero--img.svg" alt="gridImg5" class="rounded-xl">
+                </div>
+            </div>
         </section>
 
         <section class="container flex flex-wrap mt-12 md:mt-24 mb-20 md:mb-40">
             <h2 class="w-full mb-3 md:mb-6">Our mission</h2>
             <div class="md:w-3/5">
-                <p class="text-xl leading-relaxed">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
-                <div class="sm:w-4/5 md:w-4/5 mt-4 md:mt-12 [&>p+p]:mt-4 md:[&>p+p]:mt-12">
+                <p class="text-lg md:text-xl md:leading-relaxed">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
+                <div class="sm:w-4/5 md:w-4/5 mt-4 md:mt-12 [&>p+p]:mt-4 md:[&>p+p]:mt-12 leading-relaxed">
                     <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
                     <p>Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. laculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
                 </div>
@@ -67,7 +82,7 @@
                 <source media="(min-width: 1280px)" srcset="./assets/img/banner--lg.svg" /> 
                 <source media="(min-width: 1024px)" srcset="./assets/img/banner--md.svg" /> 
                 <source media="(min-width: 768px)" srcset="./assets/img/banner--sm.svg" /> 
-                <img src="./assets/img/banner--xs.svg" alt="#" class="rounded-2xl	md:rounded-3xl">
+                <img src="./assets/img/banner--xs.svg" alt="banner" class="rounded-2xl	md:rounded-3xl">
             </picture>
         </section>
 
@@ -122,7 +137,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Michael Foster">
                     </picture>
                     <span class="team__member__name">Michael Foster</span>
                     <span class="team__member__position">Co-Founder/CTO</span>
@@ -130,7 +145,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Dries Vincent">
                     </picture>
                     <span class="team__member__name">Dries Vincent</span>
                     <span class="team__member__position">Business Relations</span>
@@ -138,7 +153,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Lindsay Walton">
                     </picture>
                     <span class="team__member__name">Lindsay Walton</span>
                     <span class="team__member__position">Front-end Developer</span>
@@ -146,7 +161,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Courtney Henry">
                     </picture>
                     <span class="team__member__name">Courtney Henry</span>
                     <span class="team__member__position">Designer</span>
@@ -154,7 +169,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Tom Cook">
                     </picture>
                     <span class="team__member__name">Tom Cook</span>
                     <span class="team__member__position">Director of Product</span>
@@ -162,7 +177,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Whitney Francis">
                     </picture>
                     <span class="team__member__name">Whitney Francis</span>
                     <span class="team__member__position">Copywriter</span>
@@ -170,7 +185,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Leonard Krasner">
                     </picture>
                     <span class="team__member__name">Leonard Krasner</span>
                     <span class="team__member__position">Senior Designer</span>
@@ -178,7 +193,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Floyd Miles">
                     </picture>
                     <span class="team__member__name">Floyd Miles</span>
                     <span class="team__member__position">Principal Designer</span>
@@ -186,7 +201,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Emily Selman">
                     </picture>
                     <span class="team__member__name">Emily Selman</span>
                     <span class="team__member__position">VP, User Experience</span>
@@ -194,7 +209,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Kristin Watson">
                     </picture>
                     <span class="team__member__name">Kristin Watson</span>
                     <span class="team__member__position">VP, Human Resources</span>
@@ -202,7 +217,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Emma Dorsey">
                     </picture>
                     <span class="team__member__name">Emma Dorsey</span>
                     <span class="team__member__position">Senior Developer</span>
@@ -210,7 +225,7 @@
                 <div class="team__member">
                     <picture>
                         <source media="(min-width: 768px)" srcset="./assets/img/team--member--tablet.svg" /> 
-                        <img src="./assets/img/team--member--mobile.svg" alt="#">
+                        <img src="./assets/img/team--member--mobile.svg" alt="Alicia Bell">
                     </picture>
                     <span class="team__member__name">Alicia Bell</span>
                     <span class="team__member__position">Junior Copywriter</span>
