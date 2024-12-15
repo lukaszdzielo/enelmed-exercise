@@ -596,14 +596,6 @@ video {
   top: 0px;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
 .top-28 {
   top: 7rem;
 }
@@ -996,7 +988,7 @@ section {
     position: relative;
   }
   .blog__post {
-    height: 10rem;
+    height: 12rem;
   }
   .blog__post {
     border-radius: 0.75rem;
