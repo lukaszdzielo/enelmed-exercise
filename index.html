@@ -372,7 +372,7 @@
     const headerNav = header.querySelector('#headerNav')
     headerNavBtn.addEventListener('click', () => headerNav.classList.contains('hidden') ? headerNav.classList.remove('hidden'): headerNav.classList.add('hidden') );
 
-    const scrollHeader = () => (window.pageYOffset < 10) ? header.classList.remove('border-b') : header.classList.add('border-b');
+    const scrollHeader = () => (window.pageYOffset < 50) ? header.classList.remove('border-b') : header.classList.add('border-b');
     scrollHeader();
     window.addEventListener('scroll', () => scrollHeader());
     
