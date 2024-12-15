@@ -600,6 +600,14 @@ video {
   top: 2.5rem;
 }
 
+.top-24 {
+  top: 6rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -626,11 +634,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .my-24 {
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -641,12 +644,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-3 {
@@ -673,10 +672,6 @@ video {
   margin-top: 3rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .mt-24 {
   margin-top: 6rem;
 }
@@ -693,20 +688,8 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
 }
 
 .flex {
@@ -874,6 +857,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -882,11 +870,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -906,14 +889,14 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
-}
-
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
 .transition-colors {
@@ -1174,11 +1157,6 @@ footer {
   border-bottom-width: 1px;
 }
 
-.has-\[\#headerNav\]\:bg-indigo-50:has(#headerNav) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(238 242 255 / var(--tw-bg-opacity, 1));
-}
-
 @media (min-width: 640px) {
   .sm\:my-10 {
     margin-top: 2.5rem;
@@ -1224,6 +1202,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .md\:my-40 {
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -1236,10 +1219,6 @@ footer {
 
   .md\:-mr-32 {
     margin-right: -8rem;
-  }
-
-  .md\:mb-24 {
-    margin-bottom: 6rem;
   }
 
   .md\:mb-40 {
@@ -1272,10 +1251,6 @@ footer {
 
   .md\:mt-20 {
     margin-top: 5rem;
-  }
-
-  .md\:mt-24 {
-    margin-top: 6rem;
   }
 
   .md\:mt-40 {
