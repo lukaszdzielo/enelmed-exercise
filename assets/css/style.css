@@ -899,6 +899,10 @@ video {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-relaxed {
   line-height: 1.625;
 }
