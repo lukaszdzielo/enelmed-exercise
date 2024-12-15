@@ -38,7 +38,7 @@ section {
 
 .blog__grid {
     .blog__post {
-        @apply relative h-40 sm:h-52 md:h-[450px] rounded-xl;
+        @apply relative h-48 sm:h-52 md:h-[450px] rounded-xl;
 
         picture {
 
