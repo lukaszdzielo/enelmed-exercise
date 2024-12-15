@@ -797,6 +797,11 @@ video {
   row-gap: 2rem;
 }
 
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
