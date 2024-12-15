@@ -52,10 +52,16 @@ section {
         }
 
         .blog__post__content {
-            @apply absolute bottom-0 w-full p-4 sm:p-6 md:p-8;
+            @apply absolute bottom-0 w-full p-4 sm:p-6 xl:p-8;
 
             & ul {
                 @apply flex gap-3 mb-2 text-gray-300 text-sm;
+            }
+
+            .blog__post__author {
+                &:before {
+                    @apply content-[''] w-px h-px bg-gray-300;
+                }
             }
 
             p {
