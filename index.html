@@ -9,7 +9,7 @@
 </head>
 
 <body class="text-base text-gray-500 tracking-wide">
-    <header id="header" class="sticky top-0 z-10 py-3 md:py-7 bg-white has-[#headerNav:not(.hidden)]:border-b has-[#headerNav:not(.hidden)]:border-gray-400">
+    <header id="header" class="sticky top-0 z-10 py-3 md:py-7 bg-white has-[#headerNav:not(.hidden)]:border-b border-gray-200 transition-colors">
         <nav class="flex flex-wrap md:grid md:[gridTemplateColumns:1fr_auto_1fr] items-center	container text-gray-900 md:text-sm">
             <a href="/">
                 <img src="./assets/img/logo.svg" alt="Logo">
@@ -367,11 +367,15 @@
 </body>
 
 <script>
-    const headerNavBtn = document.querySelector('#headerNav--btn')
-    const headerNav = document.querySelector('#headerNav')
-    headerNavBtn.addEventListener('click', e => {
-        headerNav.classList.contains('hidden') ? headerNav.classList.remove('hidden'): headerNav.classList.add('hidden') ;
-    });
+    const header = document.querySelector('#header')
+    const headerNavBtn = header.querySelector('#headerNav--btn')
+    const headerNav = header.querySelector('#headerNav')
+    headerNavBtn.addEventListener('click', () => headerNav.classList.contains('hidden') ? headerNav.classList.remove('hidden'): headerNav.classList.add('hidden') );
+
+    const scrollHeader = () => (window.pageYOffset < 10) ? header.classList.remove('border-b') : header.classList.add('border-b');
+    scrollHeader();
+    window.addEventListener('scroll', () => scrollHeader());
+    
 </script>
 
 </html>
