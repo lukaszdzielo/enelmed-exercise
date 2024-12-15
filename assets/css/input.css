@@ -21,6 +21,7 @@ section {
 
 .team__grid {
     .team__member {
+        @apply flex flex-col items-center;
         img {
             @apply rounded-full;
         }
