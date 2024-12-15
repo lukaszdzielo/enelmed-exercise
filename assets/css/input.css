@@ -25,8 +25,6 @@ section {
 
 .team__grid {
     .team__member {
-        @apply flex flex-col items-center;
-
         img {
             @apply rounded-full;
         }
@@ -42,7 +40,6 @@ section {
 }
 
 .blog__grid {
-
     .blog__post {
         @apply relative h-40 sm:h-52 md:h-[450px] rounded-xl;
 
@@ -72,8 +69,6 @@ section {
 }
 
 footer {
-    @apply text-gray-400 text-center;
-
     nav {
         @apply text-sm;
 
